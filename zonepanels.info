@@ -1,0 +1,8 @@
+name = Zone Panels
+description = Dynamic Panels pane with Zones
+package = Panels
+core = 7.x
+version = 7.x-1.x
+
+;files[] =
+dependencies[] = panels
