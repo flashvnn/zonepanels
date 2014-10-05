@@ -77,7 +77,7 @@ function template_preprocess_zones(&$variables){
   }
   else {
     $variables['admin_panels'] = FALSE;
-    $variables['panel_prefix'] = @$variables['display']->layout_settings['zonepanels']['wrapper']['prefix'] ?: "";
-    $variables['panel_suffix'] = @$variables['display']->layout_settings['zonepanels']['wrapper']['suffix'] ?: "";
+    $variables['panel_prefix'] = $variables['display']->layout_settings['zonepanels']['wrapper']['prefix'];
+    $variables['panel_suffix'] = $variables['display']->layout_settings['zonepanels']['wrapper']['suffix'];
   }
 }
